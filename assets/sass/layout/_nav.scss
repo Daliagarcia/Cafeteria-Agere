@@ -1,0 +1,16 @@
+.navbar img{
+  max-width: 40%;
+  width: 100%;
+  height: auto;
+}
+
+.navbar__menulink{
+  color: $spanish-gray;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $medium;
+  &:hover{
+    color: $black;
+  }
+
+}

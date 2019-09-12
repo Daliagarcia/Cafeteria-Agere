@@ -1,0 +1,222 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.description__item--corto {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.description__item--largo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.sectionHeader {
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.header__image {
+  height: 25rem;
+  width: 55rem;
+  background-image: url("../img/img-1.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: left;
+  background-size: cover;
+  float: left;
+}
+
+.description {
+  width: 50%;
+  background-color: #fff;
+  height: 7rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.header__title {
+  height: 25rem;
+  display: inline-block;
+  float: left;
+  padding-left: 3rem;
+  position: relative;
+}
+
+.header__title--large {
+  padding-top: 3rem;
+}
+
+.header__title--squareYellow {
+  width: 7rem;
+  height: 7rem;
+  background-color: #f1dd7b;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header__title--squareOrange {
+  width: 7rem;
+  height: 7rem;
+  background-color: #e4572e;
+  position: absolute;
+  left: -1rem;
+  bottom: 1rem;
+}
+
+.arrow {
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.sectionAbout {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  clear: both;
+}
+
+.about__contact {
+  height: 18rem;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  padding: 3rem;
+}
+
+.about_map {
+  height: 16rem;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.boxBlue {
+  width: 100%;
+  height: 14rem;
+  position: absolute;
+  background-color: #3c91e6;
+  top: 0;
+  right: 0;
+}
+
+.map {
+  width: 25rem;
+  height: auto;
+  position: absolute;
+  top: 2rem;
+  left: -2rem;
+}
+
+.grain {
+  width: 6rem;
+  height: 8rem;
+  position: absolute;
+  top: 0;
+  right: -2rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.about__img {
+  height: 16rem;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../img/img-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.navbar img {
+  max-width: 40%;
+  width: 100%;
+  height: auto;
+}
+
+.navbar__menulink {
+  color: #989797;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbar__menulink:hover {
+  color: #000000;
+}
+
+.navbar__buttons--primary {
+  border: 1px solid #989797;
+  background-color: #fff;
+  color: #989797;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbar__buttons--primary:hover {
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.navbar__buttons--secondary {
+  border: 1px solid #4ca866;
+  color: #fff;
+  background-color: #4ca866;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbar__buttons--secondary:hover {
+  color: #4ca866;
+  border: 1px solid #bddfc7;
+  background-color: #bddfc7;
+}
+
+/*# sourceMappingURL=main.css.map */

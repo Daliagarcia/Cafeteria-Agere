@@ -1,0 +1,28 @@
+.navbar__buttons--primary{
+  border: 1px solid $spanish-gray;
+  background-color: $white;
+  color: $spanish-gray;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $medium;
+
+  &:hover{
+    color: $black;
+    border: 1px solid $black;
+  }
+}
+
+.navbar__buttons--secondary{
+  border: 1px solid $shiny-shamrock;
+  color: $white;
+  background-color: $shiny-shamrock;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $medium;
+
+  &:hover{
+    color: $shiny-shamrock;
+    border: 1px solid $pastel-gray;
+    background-color: $pastel-gray;
+  }
+}

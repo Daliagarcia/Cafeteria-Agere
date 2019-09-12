@@ -1,0 +1,35 @@
+h1{
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $xxx-large;
+}
+
+h4{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $large;
+}
+
+h2{
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $x-large;
+}
+
+p{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $medium;
+}
+
+.description__item--corto{
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $x-large;
+}
+
+.description__item--largo{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $medium;
+}
